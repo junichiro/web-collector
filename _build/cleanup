@@ -1,0 +1,4 @@
+{
+          'blib' => 1,
+          'Web-Collector-*' => 1
+        }

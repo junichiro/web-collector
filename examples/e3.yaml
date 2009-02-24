@@ -1,0 +1,6 @@
+---
+
+img_dir: /Users/tobe/Pictures/e3
+uri:     http://www.e-3.ne.jp/image?p=
+max_cnt: 1
+process: process "p.member>a>img", 'img_uri[]' => [ '@src', sub { s/80x80/640x640/ } ]
